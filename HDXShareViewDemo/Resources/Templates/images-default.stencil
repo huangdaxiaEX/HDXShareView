@@ -1,0 +1,12 @@
+
+{% if images %}
+import Foundation
+
+struct Images {
+  {% for image in images %}
+  static let {{image|swiftIdentifier}} = UIImage(named: "{{image}}")!
+  {% endfor %}
+}
+{% else %}
+// No image found
+{% endif %}

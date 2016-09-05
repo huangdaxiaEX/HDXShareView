@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  HDXShareViewDemo
+
+  Created by huangdaxia on 16/9/5.
+  Copyright © 2016年 huangdaxia. All rights reserved.
+*/
+
+"share-WX-friend"                      = "微信好友";
+"share-WX-timeline"                    = "朋友圈";
+"share-QQ-friend"                      = "QQ 好友";
+"share-QQ-zone"                        = "QQ 空间";
+"share-weibo"                          = "微博";

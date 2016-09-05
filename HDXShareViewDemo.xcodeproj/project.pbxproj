@@ -7,29 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9CAB078D85FE26CE68B68448 /* Pods_HDXShareViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C646CECA4440E320E007F068 /* Pods_HDXShareViewDemo.framework */; };
 		D5EE69051D7D61A6001EA063 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EE69041D7D61A6001EA063 /* AppDelegate.swift */; };
 		D5EE69071D7D61A6001EA063 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EE69061D7D61A6001EA063 /* ViewController.swift */; };
 		D5EE690A1D7D61A6001EA063 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5EE69081D7D61A6001EA063 /* Main.storyboard */; };
-		D5EE690C1D7D61A6001EA063 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5EE690B1D7D61A6001EA063 /* Assets.xcassets */; };
 		D5EE690F1D7D61A6001EA063 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5EE690D1D7D61A6001EA063 /* LaunchScreen.storyboard */; };
 		D5EE69181D7D6376001EA063 /* HDXShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EE69171D7D6376001EA063 /* HDXShareView.swift */; };
 		D5EE691B1D7D63B8001EA063 /* ShareController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EE691A1D7D63B8001EA063 /* ShareController.swift */; };
 		D5EE691E1D7D6B2A001EA063 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5EE691C1D7D6B2A001EA063 /* Alamofire.framework */; };
 		D5EE691F1D7D6B2A001EA063 /* Cartography.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5EE691D1D7D6B2A001EA063 /* Cartography.framework */; };
+		D5EE69251D7D6DE6001EA063 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5EE69241D7D6DE6001EA063 /* images.xcassets */; };
+		D5EE69291D7D6EBE001EA063 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5EE692B1D7D6EBE001EA063 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12139D2DCB3CFF9005BC360F /* Pods-HDXShareViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDXShareViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HDXShareViewDemo/Pods-HDXShareViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		17F5110FBAEA9677CC43D1C6 /* Pods-HDXShareViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDXShareViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HDXShareViewDemo/Pods-HDXShareViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C646CECA4440E320E007F068 /* Pods_HDXShareViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HDXShareViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5EE69011D7D61A6001EA063 /* HDXShareViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDXShareViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5EE69041D7D61A6001EA063 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5EE69061D7D61A6001EA063 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D5EE69091D7D61A6001EA063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D5EE690B1D7D61A6001EA063 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5EE690E1D7D61A6001EA063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5EE69101D7D61A6001EA063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5EE69171D7D6376001EA063 /* HDXShareView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HDXShareView.swift; sourceTree = "<group>"; };
 		D5EE691A1D7D63B8001EA063 /* ShareController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareController.swift; sourceTree = "<group>"; };
 		D5EE691C1D7D6B2A001EA063 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		D5EE691D1D7D6B2A001EA063 /* Cartography.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cartography.framework; path = Carthage/Build/iOS/Cartography.framework; sourceTree = "<group>"; };
+		D5EE69241D7D6DE6001EA063 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
+		D5EE692A1D7D6EBE001EA063 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D5EE692C1D7D6EC1001EA063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,18 +46,29 @@
 			files = (
 				D5EE691E1D7D6B2A001EA063 /* Alamofire.framework in Frameworks */,
 				D5EE691F1D7D6B2A001EA063 /* Cartography.framework in Frameworks */,
+				9CAB078D85FE26CE68B68448 /* Pods_HDXShareViewDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		78EC4D4D6683106A47DBC511 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12139D2DCB3CFF9005BC360F /* Pods-HDXShareViewDemo.debug.xcconfig */,
+				17F5110FBAEA9677CC43D1C6 /* Pods-HDXShareViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D5EE68F81D7D61A6001EA063 = {
 			isa = PBXGroup;
 			children = (
 				D5EE69201D7D6B39001EA063 /* Frameworks */,
 				D5EE69031D7D61A6001EA063 /* HDXShareViewDemo */,
 				D5EE69021D7D61A6001EA063 /* Products */,
+				78EC4D4D6683106A47DBC511 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,11 +83,11 @@
 		D5EE69031D7D61A6001EA063 /* HDXShareViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D5EE69231D7D6D41001EA063 /* Resources */,
 				D5EE69161D7D6369001EA063 /* HDXShareView */,
 				D5EE69041D7D61A6001EA063 /* AppDelegate.swift */,
 				D5EE69061D7D61A6001EA063 /* ViewController.swift */,
 				D5EE69081D7D61A6001EA063 /* Main.storyboard */,
-				D5EE690B1D7D61A6001EA063 /* Assets.xcassets */,
 				D5EE690D1D7D61A6001EA063 /* LaunchScreen.storyboard */,
 				D5EE69101D7D61A6001EA063 /* Info.plist */,
 			);
@@ -98,8 +116,26 @@
 			children = (
 				D5EE691C1D7D6B2A001EA063 /* Alamofire.framework */,
 				D5EE691D1D7D6B2A001EA063 /* Cartography.framework */,
+				C646CECA4440E320E007F068 /* Pods_HDXShareViewDemo.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5EE69231D7D6D41001EA063 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D5EE69261D7D6E45001EA063 /* Localization */,
+				D5EE69241D7D6DE6001EA063 /* images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D5EE69261D7D6E45001EA063 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				D5EE692B1D7D6EBE001EA063 /* Localizable.strings */,
+			);
+			path = Localization;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,9 +145,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5EE69131D7D61A6001EA063 /* Build configuration list for PBXNativeTarget "HDXShareViewDemo" */;
 			buildPhases = (
+				E519039D96BCE2C4AC7A34CA /* [CP] Check Pods Manifest.lock */,
 				D5EE68FD1D7D61A6001EA063 /* Sources */,
 				D5EE68FE1D7D61A6001EA063 /* Frameworks */,
 				D5EE68FF1D7D61A6001EA063 /* Resources */,
+				D5EE69211D7D6CF8001EA063 /* SwiftGen */,
+				51A5D4C6ED271359A54E352F /* [CP] Embed Pods Frameworks */,
+				C034D58E0DEF8FC3E2CABD83 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -161,12 +201,75 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5EE690F1D7D61A6001EA063 /* LaunchScreen.storyboard in Resources */,
-				D5EE690C1D7D61A6001EA063 /* Assets.xcassets in Resources */,
+				D5EE69291D7D6EBE001EA063 /* Localizable.strings in Resources */,
+				D5EE69251D7D6DE6001EA063 /* images.xcassets in Resources */,
 				D5EE690A1D7D61A6001EA063 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51A5D4C6ED271359A54E352F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HDXShareViewDemo/Pods-HDXShareViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C034D58E0DEF8FC3E2CABD83 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HDXShareViewDemo/Pods-HDXShareViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5EE69211D7D6CF8001EA063 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#\"$PODS_ROOT/SwiftGen/bin/swiftgen\" images \"$PROJECT_DIR\" --output \"$PROJECT_DIR/bong/Resources/Images.swift\"\n\"$PODS_ROOT/SwiftGen/bin/swiftgen\" strings \"$PROJECT_DIR/HDXShareViewDemo/Resources/Localization/zh-Hans.lproj/Localizable.strings\" --output \"$PROJECT_DIR/HDXShareViewDemo/Resources/Localizations.swift\" --templatePath \"$PROJECT_DIR/HDXShareViewDemo/Resources/Templates/strings-default.stencil\"\n\n\"$PODS_ROOT/SwiftGen/bin/swiftgen\" images \"$PROJECT_DIR/HDXShareViewDemo/Resources/Images.xcassets\" --output \"$PROJECT_DIR/HDXShareViewDemo/Resources/Images.swift\" --templatePath \"$PROJECT_DIR/HDXShareViewDemo/Resources/Templates/images-default.stencil\"";
+		};
+		E519039D96BCE2C4AC7A34CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D5EE68FD1D7D61A6001EA063 /* Sources */ = {
@@ -197,6 +300,15 @@
 				D5EE690E1D7D61A6001EA063 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D5EE692B1D7D6EBE001EA063 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5EE692A1D7D6EBE001EA063 /* en */,
+				D5EE692C1D7D6EC1001EA063 /* Base */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -289,6 +401,7 @@
 		};
 		D5EE69141D7D61A6001EA063 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12139D2DCB3CFF9005BC360F /* Pods-HDXShareViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -304,6 +417,7 @@
 		};
 		D5EE69151D7D61A6001EA063 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17F5110FBAEA9677CC43D1C6 /* Pods-HDXShareViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (

@@ -1,0 +1,23 @@
+{% if strings %}
+import Foundation
+
+func tr(key: String, _ args: [CVarArgType] = []) -> String {
+    let format = NSLocalizedString(key, comment: "")
+    return String(format: format, locale: NSLocale.currentLocale(), arguments: args)
+}
+
+struct Localizations {
+	{% for string in strings %}
+	/// {{string.translation}}
+	{% if string.params %}
+	static func {{string.key|swiftIdentifier|snakeToCamelCase}} (values: CVarArgType...) -> String {
+		return tr("{{string.key}}", values)
+	}
+	{% else %}
+	static var {{string.key|swiftIdentifier|snakeToCamelCase}}: String = tr("{{string.key}}")
+	{% endif %}
+	{% endfor %}
+}
+{% else %}
+// No string found
+{% endif %}
