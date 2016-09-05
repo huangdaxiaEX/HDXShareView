@@ -16,8 +16,10 @@
 		D5EE691B1D7D63B8001EA063 /* ShareController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EE691A1D7D63B8001EA063 /* ShareController.swift */; };
 		D5EE691E1D7D6B2A001EA063 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5EE691C1D7D6B2A001EA063 /* Alamofire.framework */; };
 		D5EE691F1D7D6B2A001EA063 /* Cartography.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5EE691D1D7D6B2A001EA063 /* Cartography.framework */; };
-		D5EE69251D7D6DE6001EA063 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5EE69241D7D6DE6001EA063 /* images.xcassets */; };
 		D5EE69291D7D6EBE001EA063 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5EE692B1D7D6EBE001EA063 /* Localizable.strings */; };
+		D5EE692E1D7D7167001EA063 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5EE692D1D7D7167001EA063 /* Images.xcassets */; };
+		D5EE69311D7D71CE001EA063 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EE692F1D7D71CE001EA063 /* Images.swift */; };
+		D5EE69321D7D71CE001EA063 /* Localizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EE69301D7D71CE001EA063 /* Localizations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,9 +36,11 @@
 		D5EE691A1D7D63B8001EA063 /* ShareController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareController.swift; sourceTree = "<group>"; };
 		D5EE691C1D7D6B2A001EA063 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		D5EE691D1D7D6B2A001EA063 /* Cartography.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cartography.framework; path = Carthage/Build/iOS/Cartography.framework; sourceTree = "<group>"; };
-		D5EE69241D7D6DE6001EA063 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
 		D5EE692A1D7D6EBE001EA063 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D5EE692C1D7D6EC1001EA063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D5EE692D1D7D7167001EA063 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D5EE692F1D7D71CE001EA063 /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		D5EE69301D7D71CE001EA063 /* Localizations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localizations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,8 +128,10 @@
 		D5EE69231D7D6D41001EA063 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D5EE692F1D7D71CE001EA063 /* Images.swift */,
+				D5EE69301D7D71CE001EA063 /* Localizations.swift */,
+				D5EE692D1D7D7167001EA063 /* Images.xcassets */,
 				D5EE69261D7D6E45001EA063 /* Localization */,
-				D5EE69241D7D6DE6001EA063 /* images.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -201,8 +207,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5EE690F1D7D61A6001EA063 /* LaunchScreen.storyboard in Resources */,
+				D5EE692E1D7D7167001EA063 /* Images.xcassets in Resources */,
 				D5EE69291D7D6EBE001EA063 /* Localizable.strings in Resources */,
-				D5EE69251D7D6DE6001EA063 /* images.xcassets in Resources */,
 				D5EE690A1D7D61A6001EA063 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,7 +258,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#\"$PODS_ROOT/SwiftGen/bin/swiftgen\" images \"$PROJECT_DIR\" --output \"$PROJECT_DIR/bong/Resources/Images.swift\"\n\"$PODS_ROOT/SwiftGen/bin/swiftgen\" strings \"$PROJECT_DIR/HDXShareViewDemo/Resources/Localization/zh-Hans.lproj/Localizable.strings\" --output \"$PROJECT_DIR/HDXShareViewDemo/Resources/Localizations.swift\" --templatePath \"$PROJECT_DIR/HDXShareViewDemo/Resources/Templates/strings-default.stencil\"\n\n\"$PODS_ROOT/SwiftGen/bin/swiftgen\" images \"$PROJECT_DIR/HDXShareViewDemo/Resources/Images.xcassets\" --output \"$PROJECT_DIR/HDXShareViewDemo/Resources/Images.swift\" --templatePath \"$PROJECT_DIR/HDXShareViewDemo/Resources/Templates/images-default.stencil\"";
+			shellScript = "#\"$PODS_ROOT/SwiftGen/bin/swiftgen\" images \"$PROJECT_DIR\" --output \"$PROJECT_DIR/bong/Resources/Images.swift\"\n\"$PODS_ROOT/SwiftGen/bin/swiftgen\" strings \"$PROJECT_DIR/HDXShareViewDemo/Resources/Localization/Base.lproj/Localizable.strings\" --output \"$PROJECT_DIR/HDXShareViewDemo/Resources/Localizations.swift\" --templatePath \"$PROJECT_DIR/HDXShareViewDemo/Resources/Templates/strings-default.stencil\"\n\n\"$PODS_ROOT/SwiftGen/bin/swiftgen\" images \"$PROJECT_DIR/HDXShareViewDemo/Resources/Images.xcassets\" --output \"$PROJECT_DIR/HDXShareViewDemo/Resources/Images.swift\" --templatePath \"$PROJECT_DIR/HDXShareViewDemo/Resources/Templates/images-default.stencil\"";
 		};
 		E519039D96BCE2C4AC7A34CA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -278,6 +284,8 @@
 			files = (
 				D5EE69071D7D61A6001EA063 /* ViewController.swift in Sources */,
 				D5EE69051D7D61A6001EA063 /* AppDelegate.swift in Sources */,
+				D5EE69321D7D71CE001EA063 /* Localizations.swift in Sources */,
+				D5EE69311D7D71CE001EA063 /* Images.swift in Sources */,
 				D5EE69181D7D6376001EA063 /* HDXShareView.swift in Sources */,
 				D5EE691B1D7D63B8001EA063 /* ShareController.swift in Sources */,
 			);
