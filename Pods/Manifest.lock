@@ -1,12 +1,18 @@
 PODS:
+  - Alamofire (3.4.2)
+  - Cartography (0.6.0)
   - SwiftGen (2.0.0)
 
 DEPENDENCIES:
+  - Alamofire
+  - Cartography
   - SwiftGen
 
 SPEC CHECKSUMS:
+  Alamofire: 6aa33201d20d069e1598891cf928883ff1888c7a
+  Cartography: 70af183a248547694a8cfaa6b989cb7e04589985
   SwiftGen: 67c900e9f1db8168612f2df843ec20a66783a8e5
 
-PODFILE CHECKSUM: 10f2594509d7211b63728bfaa2f4544c6c4d2b8a
+PODFILE CHECKSUM: fa120c5cbe2967b9adccccca37fb3c7c25b37d5f
 
 COCOAPODS: 1.0.1
