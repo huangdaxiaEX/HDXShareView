@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 struct Config {
     static let WeChatID = ""
@@ -531,7 +532,7 @@ extension ShareController {
                 if let JSON = responseData.result.value, let _ = JSON["idstr"] as? String {
                     shareCompletionHandler(result: true)
                 } else {
-                    log.error("response data error")
+                    print("response data error")
                     shareCompletionHandler(result: false)
                 }
             })
@@ -541,7 +542,7 @@ extension ShareController {
                 if let JSON = responseData.result.value, let _ = JSON["idstr"] as? String {
                     shareCompletionHandler(result: true)
                 } else {
-                    log.error("response data error")
+                    print("response data error")
                     shareCompletionHandler(result: false)
                 }
             })

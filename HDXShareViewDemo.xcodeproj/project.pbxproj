@@ -14,6 +14,8 @@
 		D5EE690F1D7D61A6001EA063 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5EE690D1D7D61A6001EA063 /* LaunchScreen.storyboard */; };
 		D5EE69181D7D6376001EA063 /* HDXShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EE69171D7D6376001EA063 /* HDXShareView.swift */; };
 		D5EE691B1D7D63B8001EA063 /* ShareController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EE691A1D7D63B8001EA063 /* ShareController.swift */; };
+		D5EE691E1D7D6B2A001EA063 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5EE691C1D7D6B2A001EA063 /* Alamofire.framework */; };
+		D5EE691F1D7D6B2A001EA063 /* Cartography.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5EE691D1D7D6B2A001EA063 /* Cartography.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		D5EE69101D7D61A6001EA063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5EE69171D7D6376001EA063 /* HDXShareView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HDXShareView.swift; sourceTree = "<group>"; };
 		D5EE691A1D7D63B8001EA063 /* ShareController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareController.swift; sourceTree = "<group>"; };
+		D5EE691C1D7D6B2A001EA063 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		D5EE691D1D7D6B2A001EA063 /* Cartography.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cartography.framework; path = Carthage/Build/iOS/Cartography.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5EE691E1D7D6B2A001EA063 /* Alamofire.framework in Frameworks */,
+				D5EE691F1D7D6B2A001EA063 /* Cartography.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +48,7 @@
 		D5EE68F81D7D61A6001EA063 = {
 			isa = PBXGroup;
 			children = (
+				D5EE69201D7D6B39001EA063 /* Frameworks */,
 				D5EE69031D7D61A6001EA063 /* HDXShareViewDemo */,
 				D5EE69021D7D61A6001EA063 /* Products */,
 			);
@@ -84,6 +91,15 @@
 				D5EE691A1D7D63B8001EA063 /* ShareController.swift */,
 			);
 			name = ShareController;
+			sourceTree = "<group>";
+		};
+		D5EE69201D7D6B39001EA063 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5EE691C1D7D6B2A001EA063 /* Alamofire.framework */,
+				D5EE691D1D7D6B2A001EA063 /* Cartography.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +291,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = HDXShareViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.bong.HDXShareViewDemo;
@@ -286,6 +306,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = HDXShareViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.bong.HDXShareViewDemo;

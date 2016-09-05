@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Cartography
 
 class HDXShareView: UIView {
     let shareItem: [ShareItem] = [.WeChatFriend, .WeChatTimeline, .Weibo, .QQFriend, .QQZone]
