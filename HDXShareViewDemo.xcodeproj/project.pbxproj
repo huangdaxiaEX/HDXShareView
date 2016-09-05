@@ -12,6 +12,8 @@
 		D5EE690A1D7D61A6001EA063 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5EE69081D7D61A6001EA063 /* Main.storyboard */; };
 		D5EE690C1D7D61A6001EA063 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5EE690B1D7D61A6001EA063 /* Assets.xcassets */; };
 		D5EE690F1D7D61A6001EA063 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5EE690D1D7D61A6001EA063 /* LaunchScreen.storyboard */; };
+		D5EE69181D7D6376001EA063 /* HDXShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EE69171D7D6376001EA063 /* HDXShareView.swift */; };
+		D5EE691B1D7D63B8001EA063 /* ShareController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EE691A1D7D63B8001EA063 /* ShareController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D5EE690B1D7D61A6001EA063 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5EE690E1D7D61A6001EA063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5EE69101D7D61A6001EA063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5EE69171D7D6376001EA063 /* HDXShareView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HDXShareView.swift; sourceTree = "<group>"; };
+		D5EE691A1D7D63B8001EA063 /* ShareController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		D5EE69031D7D61A6001EA063 /* HDXShareViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D5EE69161D7D6369001EA063 /* HDXShareView */,
 				D5EE69041D7D61A6001EA063 /* AppDelegate.swift */,
 				D5EE69061D7D61A6001EA063 /* ViewController.swift */,
 				D5EE69081D7D61A6001EA063 /* Main.storyboard */,
@@ -62,6 +67,23 @@
 				D5EE69101D7D61A6001EA063 /* Info.plist */,
 			);
 			path = HDXShareViewDemo;
+			sourceTree = "<group>";
+		};
+		D5EE69161D7D6369001EA063 /* HDXShareView */ = {
+			isa = PBXGroup;
+			children = (
+				D5EE69191D7D63AB001EA063 /* ShareController */,
+				D5EE69171D7D6376001EA063 /* HDXShareView.swift */,
+			);
+			path = HDXShareView;
+			sourceTree = "<group>";
+		};
+		D5EE69191D7D63AB001EA063 /* ShareController */ = {
+			isa = PBXGroup;
+			children = (
+				D5EE691A1D7D63B8001EA063 /* ShareController.swift */,
+			);
+			name = ShareController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +159,8 @@
 			files = (
 				D5EE69071D7D61A6001EA063 /* ViewController.swift in Sources */,
 				D5EE69051D7D61A6001EA063 /* AppDelegate.swift in Sources */,
+				D5EE69181D7D6376001EA063 /* HDXShareView.swift in Sources */,
+				D5EE691B1D7D63B8001EA063 /* ShareController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +312,7 @@
 				D5EE69151D7D61A6001EA063 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
