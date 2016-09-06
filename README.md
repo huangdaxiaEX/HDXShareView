@@ -3,7 +3,7 @@
 
 * MonkeyKing
 
-  Learn from the [`MonkeyKing`](#https://github.com/nixzhu/MonkeyKing)  inspiration and some code to write `ShareController`
+  Learn from the [`MonkeyKing`](https://github.com/nixzhu/MonkeyKing)  inspiration and some code to write `ShareController`
 
 * SwiftGen
 
