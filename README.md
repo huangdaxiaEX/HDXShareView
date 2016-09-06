@@ -1,4 +1,6 @@
 
+A shareView like Weibo animation when write weibo, provide some functions to callback.
+
 # Tools 
 
 * MonkeyKing
@@ -16,5 +18,14 @@
 * CocoaPods Carthage
  
   Manage project SDK
+
+
+# Guide
+
+    let shareModel = ShareModel(title: "share title", description: "share title", thumbnail: Images.ShareQQ, media: .URL(URL))
+          let shareView = HDXShareView(shareModel: shareModel) {
+            print("share finished")
+        }
+    shareView.show()
 
 
